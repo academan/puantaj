@@ -1,9 +1,9 @@
 <?
 // Database connection (Replace with your actual credentials)
-$host = 'mysql.puantaj.gtuhuk.com';
+$host = 'hidden';
 $dbname = 'dbpuantaj';
 $user = 'puantaj';
-$pass = 'pGc249!1';
+$pass = 'hidden';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
